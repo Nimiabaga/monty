@@ -26,4 +26,3 @@ void rotl_handler(stack_t **stack, unsigned int line_num)
 		first->next = NULL;
 	}
 }
-
