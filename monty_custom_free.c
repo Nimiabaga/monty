@@ -8,9 +8,11 @@ void custom_free_stack(stack_t *stack)
 	stack_t *current;
 
 	current = stack;
+
 	while (current)
 	{
 		stack_t *next_node = current->next;
+
 		free(current);
 		current = next_node;
 	}
