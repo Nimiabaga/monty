@@ -1,6 +1,6 @@
 #include "monty.h"
 /**
- * free_stack - Frees the linked list.
+ * custom_free_stack - Frees the linked list.
  * @stack: Pointer to the head of the list.
  */
 void custom_free_stack(stack_t *stack)
